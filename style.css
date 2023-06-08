@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0 auto;
+  background-image: url(./images/lotto-back.jpg);
+  background-repeat: no-repeat no-repeat;
+}
+
+
+.lotto-container {
+  margin: 100px 100px;
+  display: flex;
+  width: 45%;
+  height: 270px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  /* border-radius: 15px; */
+  padding: 15px;
+  background-image: url(./images/doska.jpg);
+  border: 10px solid transparent;
+  padding: 10px;
+  border-image-source: url(./images/border_image2.png);
+  border-image-repeat: round;
+  border-image-slice: 30;
+  border-image-width: 20px;
+  filter: drop-shadow(0 0 1rem #943d2a);
+}
+.title_game{
+  text-align: center;
+  font-family: fantasy;
+  font-size: 34px;
+  padding-top: 30px;
+  height: 100px;
+  color: #363837;
+}
+.loto_games{
+  display: flex;
+  justify-content: stretch;
+
+}
+#start_button{
+  padding-top: 10%;
+  width: 10%;
+}
+.lotto-block {
+  width: 55px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 5px;
+  border: solid 2px #363837;
+  background-color: rgb(48 38 40);
+  
+}
+
+#randomNumber{
+  font-size: 50px;
+  border: 5px solid #D55379;
+  border-radius: 50px;
+  background: #FAD9B0;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  position: absolute;
+  margin-left: 130px;
+}
+
+#start{
+  border: none;
+  background: round;
+  background-image: url(./images/play.png);
+  width: 130px;
+  height: 100px;
+}
+#quit{
+  border: none;
+  background: round;
+  background-image: url(./images/quit.png);
+  width: 130px;
+  height: 100px;
+}
